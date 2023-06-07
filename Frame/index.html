@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+		/>
+		<link
+			href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body onscroll="tony()" id="body">
+		<div class="master" style="background-image: url('./images/image_1.jpg')">
+			<div class="txt_overlay">
+				<div class="container-fluid">
+					<!-- navbar -->
+					<nav class="navbar navbar-expand-md navbar-light fixed-top" id="nav">
+						<div class="container-lg my-3">
+							<a href="#intro" class="navbar-brand">
+								<h3 id="text-white"> FRAME</h3>
+							</a>
+							<!-- Toggle for mobile nav-->
+
+							<button
+								class="btn btn-light navbar-toggler"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#main-nav"
+								aria-controls="main-nav"
+								aria-expanded="false"
+								aria-label="Toggle navigation"
+							>
+								<span class="navbar-toggler-icon btn btn-light"></span>
+							</button>
+
+							<!-- Navbar links -->
+							<div
+								class="collapse navbar-collapse justify-content-end align-center"
+								id="main-nav"
+							>
+								<ul class="navbar-nav">
+									<li class="nav-item">
+										<a class="nav-link active" id="text-white1" href="#"
+											>HOME</a
+										>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="text-white2" href="#features">FEATURES</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="text-white3" href="#plans">PRICING</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="text-white4" href="#reviews">REVIEWS</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="text-white5" href="#contact">CONTACT</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+					<!-- screen text -->
+					<div class="container-lg my-5">
+						<div class="row justify-content-center align-items-center">
+							<div class="text-center p-5 text-white">
+								<h5 class="display-3 fw-bold">
+									uicookies.com Creates High Quality Bootstrap Template For Free
+								</h5>
+							</div>
+							<div class="col-sm-12 col-lg-5 my-3 text-center">
+								<a href="#" class="btn btn-dark text-light btn-lg mt-2 py-3">
+									Get Them Now
+								</a>
+								<a href="#" class="btn border border-2 border-dark btn-lg mt-2 py-3">
+									See Features
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- underimg -->
+		<div class="container-lg my-5">
+			<div class="row justify-content-around">
+				<!-- phone -->
+				<div class="col-md-12 col-lg-4">
+					<div class="text-start">
+						<div class="row py-3 fw-bold">
+							<i class="bi bi-phone phone"></i>
+						</div>
+						<h3 class="pb-3 m">Mobile Optimize</h3>
+						<p class="pb-3">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Inventore, aliquid odit? Saepe minus autem voluptatum nesciunt,
+							ipsam quibusdam mollitia possimus doloribus impedit. Id ab, dolore
+							harum enim voluptates earum quibusdam ullam iste cum incidunt?
+							Molestiae quo aliquid, recusandae porro iusto, suscipit eum
+							veritatis, minima ullam officiis totam. Sequi, vel laborum?
+						</p>
+						<a href="#" id="lea"
+							>Learn More <span class="bi bi-arrow-right oo"></span
+						></a>
+					</div>
+				</div>
+				<!-- wallet -->
+				<div class="col-md-12 col-lg-4">
+					<div class="text-start">
+						<div class="row py-3 fw-bold">
+							<div class="bi bi-wallet2 wallet"></div>
+						</div>
+						<h3 class="pb-3 m">Increase Revenue</h3>
+						<p class="pb-3">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+							magnam quas quaerat? Ipsa adipisci facere voluptas voluptatum
+							architecto id molestias, iure provident minus enim explicabo!
+							Assumenda animi commodi, tempora consequuntur nisi, facilis at,
+							natus consectetur vitae enim incidunt. Asperiores, doloremque.
+						</p>
+						<a href="#" id="leb"
+							>Learn More <span class="bi bi-arrow-right op"></span
+						></a>
+					</div>
+				</div>
+				<!-- bulb -->
+				<div class="col-md-12 col-lg-4">
+					<div class="text-start">
+						<div class="row py-3 fw-bold">
+							<i class="bi bi-lightbulb bulb"></i>
+						</div>
+						<h3 class="pb-3 m">Smart Idea</h3>
+						<p class="pb-3">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Inventore, aliquid odit? Saepe minus autem voluptatum nesciunt,
+							ipsam quibusdam mollitia possimus doloribus impedit. Id ab, dolore
+							harum enim voluptates earum quibusdam ullam iste cum incidunt?
+							Molestiae quo aliquid, recusandae porro iusto, suscipit eum
+							veritatis, minima ullam officiis totam. Sequi, vel laborum?
+						</p>
+						<a href="#" id="lec"
+							>Learn More <span class="bi bi-arrow-right or"></span
+						></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- features -->
+		<section id="features" class="fea py-5">
+			<div class="container-fluid">
+				<div class="container-fluid py-3">
+					<div class="container">
+						<div class="text-center my-5">
+							<h4 class="display-4 py-5 fb">Features</h4>
+							<p
+								>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint,
+								nihil minus dolor iusto pariatur magnam id eligendi temporibus
+								est reiciendis hic quis alias perspiciatis molestias beatae iste
+								ab libero facere cum vitae dolorem. Animi perspiciatis dolorem
+								natus! Totam rem, neque quibusdam assumenda fuga commodi
+								consequuntur eaque recusandae aspernatur voluptatibus iste?.</p
+							>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid m-0 p-0">
+					<div class="row justify-content-between my-3">
+						<div class="col-sm-12 col-md-9 col-lg-6 text-start py-5 m-0 p-0">
+							<img
+								src="./images/img_showcase_1.jpg"
+								alt=""
+								class="img-fluid shadow-lg"
+							/>
+						</div>
+						<div class="col-sm-12 col-md-9 col-lg-6 py-5">
+						<div class="text-center mx-5">
+							<div class="text-start col-sm-px-1 col-md-px-3 col-lg-px-5 ">
+								<h4 class="display-5 pb-3 text-start fb">
+									Big Benefits for Small Business
+								</h4>
+								<p class="pb-3 text-start">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+									Dicta excepturi debitis doloremque architecto nostrum nihil ad
+									quaerat laudantium nesciunt repellendus aspernatur quo iure,
+									qui totam in optio. Fugit, error fuga.
+								</p>
+
+								<div class="text-start">
+									<p class=""
+										><span class="bi bi-check check"></span>&nbsp;&nbsp;
+										Pointing has no control</p
+									>
+									<p class=""
+										><span class="bi bi-check check"></span>&nbsp;&nbsp;A small
+										river named Duden flows</p
+									>
+									<p class=""
+										><span class="bi bi-check check"></span>&nbsp;&nbsp;Roasted
+										parts of sentences fly into your mouth</p
+									>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+					<br />
+					<div class="row justify-content-between my-3">
+						<div class="col-sm-12 col-md-9 col-lg-6 py-5">
+							<div class="text-center mx-5">
+							<div class="text-start col-sm-px-1 col-md-px-3 col-lg-px-5">
+								<h4 class="display-6 pb-3 text-start fb"
+								>How Frame is <br />
+								different</h4
+							>
+							<p class="pb-3 text-start">
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+								Dicta excepturi debitis doloremque architecto nostrum nihil ad
+								quaerat laudantium nesciunt repellendus aspernatur quo iure,
+								qui totam in optio. Fugit, error fuga.
+							</p>
+
+							<div class="text-start">
+								<p class=""
+									><span class="bi bi-check check"></span>&nbsp;&nbsp;
+									Pointing has no control</p
+								>
+								<p class=""
+									><span class="bi bi-check check"></span>&nbsp;&nbsp;A small
+									river named Duden flows</p
+								>
+								<p class=""
+									><span class="bi bi-check check"></span>&nbsp;&nbsp;Roasted
+									parts of sentences fly into your mouth</p
+								>
+							</div>
+							</div>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-9 col-lg-6 text-start py-5 m-0 p-0">
+							<img
+								src="./images/img_showcase_2.jpg"
+								alt=""
+								class="img-fluid shadow-lg"
+							/>
+						</div>
+					</div>
+					<br />
+					<div class="row justify-content-between my-3 pb-5">
+						<div class="col-sm-12 col-md-9 col-lg-6 text-start py-5 m-0 p-0">
+							<img
+								src="./images/img_showcase_1.jpg"
+								alt=""
+								class="img-fluid shadow-lg"
+							/>
+						</div>
+						<div class="col-sm-12 col-md-9 col-lg-5 py-5">
+							<div class="text-center mx-5">
+							<div class="text-start col-sm-px-1 col-md-px-3 col-lg-px-5">
+									<h4 class="display-6 pb-3 text-start fb"> All In One Place </h4>
+								<p class="pb-3 text-start">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+									Dicta excepturi debitis doloremque architecto nostrum nihil ad
+									quaerat laudantium nesciunt repellendus aspernatur quo iure,
+									qui totam in optio. Fugit, error fuga.
+								</p>
+
+								<div class="text-start">
+									<p class=""
+										><span class="bi bi-check check"></span>&nbsp;&nbsp;
+										Pointing has no control</p
+									>
+									<p class=""
+										><span class="bi bi-check check"></span>&nbsp;&nbsp;A small
+										river named Duden flows</p
+									>
+									<p class=""
+										><span class="bi bi-check check"></span>&nbsp;&nbsp;Roasted
+										parts of sentences fly into your mouth</p
+									>
+								</div>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- plans -->
+		<section id="plans">
+			<div class="container-lg my-5">
+				<div class="text-center px-5 py-5">
+					<h4 class="display-2 py-5">
+						Choose the plan that’s right for your business
+					</h4>
+					<p class="pb-5"
+						>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Blanditiis, consectetur. Numquam necessitatibus doloremque
+						consectetur tenetur dolore mollitia! Magnam ipsa repudiandae laborum
+						voluptatem ea, praesentium quasi asperiores aut odit reprehenderit!
+						Ad architecto odio incidunt alias dolorum qui eos repellendus!
+						Harum, enim?</p
+					>
+				</div>
+				<div class="row justify-content-around g-4">
+					<div class="col-sm-12 col-md-9 col-lg-4">
+						<div class="card border border-muted border-1">
+							<div class="card-body text-center py-4">
+								<h4 class="card-title">Starter</h4>
+								<p class="display-5 my-5 fb fw-bold">$22.99</p>
+								<small>This is a monthly recurring payment</small>
+								<div class="row my-3 justify-content-around align-items-center">
+									<div class="col-2">
+										<span class="bi bi-check check"></span>
+									</div>
+									<div class="col-10 text-start"> Pointing has no control </div>
+								</div>
+								<div class="row my-3 justify-content-around align-items-center">
+									<div class="col-2">
+										<span class="bi bi-check check"></span>
+									</div>
+									<div class="col-10 text-start">
+										A small river named Duden flows
+									</div>
+								</div>
+								<div class="row my-3 justify-content-around align-items-center">
+									<div class="col-2">
+										<span class="bi bi-check check"></span>
+									</div>
+									<div class="col-10 text-start">
+										Roasted parts of sentences fly into your mouth
+									</div>
+								</div>
+								<a href="#" class="btn btn-lg btn-dark">Get Started</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-4">
+						<div class="card border border-muted border-1 shadow-lg">
+							<div class="card-body text-center py-4">
+								<h4 class="card-title">Business</h4>
+								<p class="display-5 my-5 fb fw-bold">$86.99</p>
+								<small>This is a monthly recurring payment</small>
+								<div class="row my-3 justify-content-around align-items-center">
+									<div class="col-2">
+										<span class="bi bi-check check"></span>
+									</div>
+									<div class="col-10 text-start"> Pointing has no control </div>
+								</div>
+								<div class="row my-3 justify-content-around align-items-center">
+									<div class="col-2">
+										<span class="bi bi-check check"></span>
+									</div>
+									<div class="col-10 text-start">
+										A small river named Duden flows
+									</div>
+								</div>
+								<div class="row my-3 justify-content-around align-items-center">
+									<div class="col-2">
+										<span class="bi bi-check check"></span>
+									</div>
+									<div class="col-10 text-start">
+										Roasted parts of sentences fly into your mouth
+									</div>
+								</div>
+								<a href="#" class="btn btn-lg btn-primary">Get Started</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-4">
+						<div class="card border border-muted border-1">
+							<div class="card-body text-center py-4">
+								<h4 class="card-title">Premium</h4>
+								<p class="display-5 my-5 fb fw-bold">$122.99</p>
+								<small>This is a monthly recurring payment</small>
+								<div class="row my-3 justify-content-around align-items-center">
+									<div class="col-2">
+										<span class="bi bi-check check"></span>
+									</div>
+									<div class="col-10 text-start"> Pointing has no control </div>
+								</div>
+								<div class="row my-3 justify-content-around align-items-center">
+									<div class="col-2">
+										<span class="bi bi-check check"></span>
+									</div>
+									<div class="col-10 text-start">
+										A small river named Duden flows
+									</div>
+								</div>
+								<div class="row my-3 justify-content-around align-items-center">
+									<div class="col-2">
+										<span class="bi bi-check check"></span>
+									</div>
+									<div class="col-10 text-start">
+										Roasted parts of sentences fly into your mouth
+									</div>
+								</div>
+								<a href="#" class="btn btn-lg btn-dark">Get Started</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Reviews -->
+		<section id="reviews" class="my-5">
+			<div class="container-fluid">
+				<div class="container col-p-0 col-sm-p-1 col-md-p-3 col-lg-p-5 pt-5">
+					<div
+						class="text-center col-p-0 col-sm-p-1 col-md-p-3 col-lg-p-5 pt-5"
+					>
+						<h3 class="display-4 fw-bold"> That’s why 100,000+ Love Frame </h3>
+						<!-- line -->
+						<!-- undertext -->
+						<p class="col-p-0 col-sm-p-1 col-md-p-3 col-lg-p-5 pt-5">
+							Even the all-powerful Pointing has no control about the blind
+							texts it is an almost unorthographic life One day however a small
+							line of blind text by the name of Lorem Ipsum decided to leave for
+							the far World of Grammar.
+						</p>
+					</div>
+				</div>
+				<!-- peaople talks -->
+				<div class="container-fluid mb-5 p-5">
+					<div class="row justify-content-center align-items-center">
+						<div class="card col-sm-12 col-md-9 col-lg-3 m-3">
+							<div class="row p-2">
+								<div class="col-3 col-sm-3 col-md-4 col-lg-5">
+									<img
+										src="./images/person_1.jpg"
+										class="img-fluid rounded-circle"
+										alt="..."
+									/>
+								</div>
+							</div>
+							<div class="card-body">
+								<p class="card-title">
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+								</p>
+								<p class="card-text"
+									>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+									perspiciatis aliquid iure nulla praesentium, dicta, dolor
+									accusantium optio cupiditate culpa reprehenderit veniam
+									quisquam, sit repellat velit laborum sunt blanditiis nisi!</p
+								>
+
+								<small class="text-muted fw-light n">-Gary Alexander</small>
+							</div>
+						</div>
+						<div class="card col-sm-12 col-md-9 col-lg-3 m-3">
+							<div class="row p-2">
+								<div class="col-3 col-sm-3 col-md-4 col-lg-5">
+									<img
+										src="./images/person_2.jpg"
+										class="img-fluid rounded-circle"
+										alt="..."
+									/>
+								</div>
+							</div>
+							<div class="card-body">
+								<p class="card-title">
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+								</p>
+								<p class="card-text"
+									>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+									perspiciatis aliquid iure nulla praesentium, dicta, dolor
+									accusantium optio cupiditate culpa reprehenderit veniam
+									quisquam, sit repellat velit laborum sunt blanditiis nisi!</p
+								>
+
+								<small class="text-muted fw-light n">-James Robertson</small>
+							</div>
+						</div>
+						<div class="card col-sm-12 col-md-9 col-lg-3 m-3">
+							<div class="row p-2">
+								<div class="col-3 col-sm-3 col-md-4 col-lg-5">
+									<img
+										src="./images/person_3.jpg"
+										class="img-fluid rounded-circle"
+										alt="..."
+									/>
+								</div>
+							</div>
+							<div class="card-body">
+								<p class="card-title">
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+								</p>
+								<p class="card-text"
+									>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+									perspiciatis aliquid iure nulla praesentium, dicta, dolor
+									accusantium optio cupiditate culpa reprehenderit veniam
+									quisquam, sit repellat velit laborum sunt blanditiis nisi!</p
+								>
+
+								<small class="text-muted fw-light n">-Ben Goodrich</small>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="card col-sm-12 col-md-9 col-lg-3 m-3">
+							<div class="row p-2">
+								<div class="col-3 col-sm-3 col-md-4 col-lg-5">
+									<img
+										src="./images/person_4.jpg"
+										class="img-fluid rounded-circle"
+										alt="..."
+									/>
+								</div>
+							</div>
+							<div class="card-body">
+								<p class="card-title">
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star"></span>
+								</p>
+								<p class="card-text"
+									>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+									perspiciatis aliquid
+								</p>
+
+								<small class="text-muted fw-light n">-Kip Hugh</small>
+							</div>
+						</div>
+						<div class="card col-sm-12 col-md-9 col-lg-3 m-3">
+							<div class="row p-2">
+								<div class="col-3 col-sm-3 col-md-4 col-lg-5">
+									<img
+										src="./images/person_2.jpg"
+										class="img-fluid rounded-circle"
+										alt="..."
+									/>
+								</div>
+							</div>
+							<div class="card-body">
+								<p class="card-title">
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star"></span>
+								</p>
+								<p class="card-text"
+									>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+									perspiciatis aliquid iure nulla praesentium, dicta, dolor
+									accusantium optio cupiditate culpa reprehenderit veniam
+									quisquam, sit repellat velit laborum sunt blanditiis nisi!</p
+								>
+
+								<small class="text-muted fw-light n">-James Robertson</small>
+							</div>
+						</div>
+						<div class="card col-sm-12 col-md-9 col-lg-3 m-3">
+							<div class="row p-2">
+								<div class="col-3 col-sm-3 col-md-4 col-lg-5">
+									<img
+										src="./images/person_3.jpg"
+										class="img-fluid rounded-circle"
+										alt="..."
+									/>
+								</div>
+							</div>
+							<div class="card-body">
+								<p class="card-title">
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+									<span class="bi bi-star-fill"></span>
+								</p>
+								<p class="card-text"
+									>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+									perspiciatis aliquid iure nulla praesentium, dicta, dolor
+									accusantium optio cupiditate culpa reprehenderit veniam
+									quisquam, sit repellat velit laborum sunt blanditiis nisi!</p
+								>
+
+								<small class="text-muted fw-light n">-Ben Goodrich</small>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section try -->
+		<section id="try">
+			<div class="container-fluid my-5">
+				<div class="container col-p-0 col-sm-p-1 col-md-p-3 col-lg-p-5 pt-5">
+					<div
+						class="text-center col-p-0 col-sm-p-1 col-md-p-3 col-lg-p-5 pt-5"
+					>
+						<h3 class="display-4 fw-bold">Try It Today</h3>
+						<!-- line -->
+						<p class="col-p-0 col-sm-p-1 col-md-p-3 col-lg-p-5 pt-5">
+							Even the all-powerful Pointing has no control about the blind
+							texts it is an almost unorthographic life One day however a small
+							line of blind text by the name of Lorem Ipsum decided to leave for
+							the far World of Grammar.
+						</p>
+						<br />
+						<a href="#" class="btn btn-primary btn-lg">Get It Now</a>
+					</div>
+				</div>
+				<div class="container p-5">
+					<img src="./images/laptop_1.jpg" alt="" class="img-fluid" />
+				</div>
+				<div class="container">
+					<div class="row justify-content-around align-items-center">
+						<div class="col-lg-5 py-3">
+							<div class="row my-3 justify-content-around align-items-center">
+								<div class="col-2">
+									<span class="bi bi-check check"></span>
+								</div>
+								<div class="col-10 text-start"> What Is Instant? </div>
+							</div>
+							<div class="row">
+								Even the all-powerful Pointing has no control about the blind
+								texts it is an almost unorthographic life One day however a
+								small line of blind text by the name of Lorem Ipsum decided to
+								leave for the far World of Grammar.
+							</div>
+						</div>
+						<div class="col-lg-5 py-3">
+							<div class="row my-3 justify-content-around align-items-center">
+								<div class="col-2">
+									<span class="bi bi-check check"></span>
+								</div>
+								<div class="col-10 text-start">
+									Is this available to my country?
+								</div>
+							</div>
+							<div class="row">
+								The Big Oxmox advised her not to do so, because there were
+								thousands of bad Commas, wild Question Marks and devious
+								Semikoli, but the Little Blind Text didn’t listen. She packed
+								her seven versalia, put her initial into the belt and made
+								herself on the way.
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-around align-items-center">
+						<div class="col-lg-5 py-3">
+							<div class="row my-3 justify-content-around align-items-center">
+								<div class="col-2">
+									<span class="bi bi-check check"></span>
+								</div>
+								<div class="col-10 text-start">
+									How do I use the new features of Frame App?
+								</div>
+								<div class="row">
+									On her way she met a copy. The copy warned the Little Blind
+									Text, that where it came from it would have been rewritten a
+									thousand times and everything that was left from its origin
+									would be the word "and" and the Little Blind Text should turn
+									around and return to its own, safe country.
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5 py-3">
+							<div class="row my-3 justify-content-around align-items-center">
+								<div class="col-2">
+									<span class="bi bi-check check"></span>
+								</div>
+								<div class="col-10 text-start">
+									I have technical problem who do I email?
+								</div>
+							</div>
+							<div class="row">
+								But nothing the copy said could convince her and so it didn’t
+								take long until a few insidious Copy Writers ambushed her, made
+								her drunk with Longe and Parole and dragged her into their
+								agency, where they abused her for their.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- join -->
+		<section id="join">
+			<div class="container-fluid bp py-5">
+				<div class="container col-p-0 col-sm-p-1 col-md-p-3 col-lg-p-5 pt-5">
+					<div
+						class="text-center col-p-0 col-sm-p-1 col-md-p-3 col-lg-p-5 pt-5"
+					>
+						<h4 class="display-6 fw-bold text-white"> Join With Over 100K Members </h4>
+						<p class="py-3 col-sm-p-1 col-md-p-3 col-lg-p-5 pt-5 text-white ">
+							But nothing the copy said could convince her and so it didn’t take
+							long until a few insidious Copy Writers ambushed her, made her
+							drunk with Longe and Parole and dragged her into their agency,
+							where they abused her for their.
+						</p>
+						<a href="#" class="btn btn-dark btn-lg">Get Started</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- contact -->
+		<section id="contact">
+			<div class="container-fluid fea py-5">
+				<div class="container py-5">
+					<div class="row justify-content-around pb-5">
+						<div class="col-md-9 col-lg-6 mt-5">
+								<form class="bg-white p-5">
+									<h5 class="display-5 py-3">Get In Touch</h5>
+									<div class="mb-3">
+									  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Name">
+									</div>
+									<div class="mb-3">
+									  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email">
+									</div>
+									<div class="mb-3">
+									  <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Phone">
+									</div>
+									<div class="mb-3">
+									  <textarea name="message" placeholder="Your Message" class="p-3 ta form-control"></textarea>
+									</div>
+									<div class="mb-3">
+									  <a href="#" class="btn btn-primary">Send Message</a>
+									</div>
+
+								  </form>
+							</div>
+							<div class="col-md-9 col-lg-5 mt-5">
+								<div class="text-start">
+									<div class="mb-3">
+										<label for="Email" class="lead text-muted">Email</label>
+										<p class=" text-secondary py-2">probootstrap@gmail.com</p>
+									</div>
+									<div class="my-3">
+										<label for="Phone" class="lead text-muted">Phone</label>
+										<p class="text-secondary py-2">+30 976 1382 9921</p>
+									</div>
+									<div class="my-3">
+										<label for="Fax" class="lead text-muted">Fax</label>
+										<p class="text-secondary py-2">+30 976 1382 9922</p>
+									</div>
+									<div class="my-3">
+										<label for="Address" class="lead text-muted">Address</label>
+										<p class="text-secondary py-2">San Francisco, CA <br>
+											4th Floor8 Lower <br>
+											San Francisco street, M1 50F</p>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- footer -->
+		<section id="footer">
+			<div class="container-fluid foot">
+				<div class="container">
+					<div class="row justify-content-center align-items-center">
+						<div class="col-lg-5">
+							<div class="text-center px-5 py-5">
+								<div class="row px-5">
+									<div class="col-3">
+										<a href="#"><i class="st bi bi-twitter"></i></a>
+									</div>
+									<div class="col-3">
+										<a href="#"><i class="st bi bi-facebook"></i></a>
+									</div>
+									<div class="col-3">
+										<a href="#"><i class="st bi bi-instagram"></i></a>
+									</div>
+									<div class="col-3">
+										<a href="#"><i class="st bi bi-linkedin"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="text-center col-sm-p-1 col-md-p-3 col-lg-p-5 text-white">
+									<p>© 2019 Frame. All Rights Reserved.</p>
+									<p>Designed & <a href="#" class="hm">Bootstrap templates</a> by uiCookies</p>
+									<p>Demo Images by <a href="#" class="hm">Unsplash</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- javascriptside -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+			integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+			integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

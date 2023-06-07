@@ -1,0 +1,99 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.master{
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+h1 {
+  font-size: 4rem;
+}
+.txt_overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.5);
+}
+@media screen and (max-width:768px) {
+  .master {
+    height: 70vh;
+  }
+  h1 {
+      font-size: calc(1.525rem + 3.5vw);
+  }
+}
+.container-fluid {
+  width: 100% !important;
+}
+.phone,
+.wallet,
+.bulb {
+	font-size: 60px;
+	color: #1a57a5;
+}
+.m {
+  color: #1a57a5;
+}
+.fea {
+  background-color: #d6e6f2;
+}
+#lea,#leb,#lec {
+  color: #1a57a5;
+}
+.gt {
+  background-color: #1a57a5;
+}
+.sf {
+  background-color: transparent;
+}
+
+#reviews {
+  background-color: #d6e6f2;
+}
+.bi-star-fill {
+  color: gold;
+}
+.n {
+  font-size: 18px;
+}
+.fb {
+  font-weight: 400;
+  color: #1a57a5 !important;
+}
+.check {
+  font-weight: bolder;
+  font-size: 25px;
+  color: #1a57a5 !important;
+}
+.bp {
+  background-color: #1a72a5;
+}
+.ta {
+  width: 100%;
+  height: 250px;
+}
+.st {
+  font-size: 30px;
+  color:lightblue;
+  font-weight: 800;
+}
+.st:hover {
+  color: #f2f2f2;
+}
+.btn{
+  border-radius: 0px;
+} 
+.foot {
+  background-color: #1a72a5;
+}
+#text-white,#text-white1,#text-white2,#text-white3,#text-white4,#text-white5{color: white;}
+.hm {
+  color: darkgrey;
+}
